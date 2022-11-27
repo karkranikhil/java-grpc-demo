@@ -1,11 +1,16 @@
 # java-grpc-demo
 
-Rebuild the application:
+When you build the application, the plugin will convert the proto definitions into Java code.
 
 ```
 mvn -DskipTests package
+```
+
 
 ```
+find target/generated-sources
+```
+
 
 Restart both the server and the client each in its own Cloud Shell session.
 
